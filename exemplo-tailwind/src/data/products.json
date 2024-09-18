@@ -1,0 +1,122 @@
+[
+  {
+    "description": "Wireless Mouse",
+    "price": 29.99,
+    "releaseDate": "2023-03-15T00:00:00.000Z",
+    "stock": 150
+  },
+  {
+    "description": "Mechanical Keyboard",
+    "price": 89.99,
+    "releaseDate": "2022-11-10T00:00:00.000Z",
+    "stock": 85
+  },
+  {
+    "description": "27-inch Monitor",
+    "price": 219.99,
+    "releaseDate": "2023-06-21T00:00:00.000Z",
+    "stock": 40
+  },
+  {
+    "description": "USB-C Hub",
+    "price": 39.99,
+    "releaseDate": "2021-09-05T00:00:00.000Z",
+    "stock": 120
+  },
+  {
+    "description": "External SSD 1TB",
+    "price": 109.99,
+    "releaseDate": "2022-02-20T00:00:00.000Z",
+    "stock": 60
+  },
+  {
+    "description": "Noise-Cancelling Headphones",
+    "price": 149.99,
+    "releaseDate": "2021-12-01T00:00:00.000Z",
+    "stock": 30
+  },
+  {
+    "description": "4K Webcam",
+    "price": 79.99,
+    "releaseDate": "2023-01-17T00:00:00.000Z",
+    "stock": 75
+  },
+  {
+    "description": "Smartphone Stand",
+    "price": 14.99,
+    "releaseDate": "2020-08-05T00:00:00.000Z",
+    "stock": 200
+  },
+  {
+    "description": "Portable Charger 10000mAh",
+    "price": 49.99,
+    "releaseDate": "2022-07-19T00:00:00.000Z",
+    "stock": 90
+  },
+  {
+    "description": "Bluetooth Speaker",
+    "price": 59.99,
+    "releaseDate": "2023-05-12T00:00:00.000Z",
+    "stock": 55
+  },
+  {
+    "description": "Gaming Chair",
+    "price": 249.99,
+    "releaseDate": "2022-04-25T00:00:00.000Z",
+    "stock": 20
+  },
+  {
+    "description": "VR Headset",
+    "price": 299.99,
+    "releaseDate": "2023-02-10T00:00:00.000Z",
+    "stock": 35
+  },
+  {
+    "description": "Smart Light Bulb",
+    "price": 24.99,
+    "releaseDate": "2021-10-03T00:00:00.000Z",
+    "stock": 180
+  },
+  {
+    "description": "Wireless Earbuds",
+    "price": 99.99,
+    "releaseDate": "2022-05-08T00:00:00.000Z",
+    "stock": 100
+  },
+  {
+    "description": "Laptop Cooling Pad",
+    "price": 34.99,
+    "releaseDate": "2020-12-15T00:00:00.000Z",
+    "stock": 130
+  },
+  {
+    "description": "Smartwatch",
+    "price": 199.99,
+    "releaseDate": "2023-07-22T00:00:00.000Z",
+    "stock": 70
+  },
+  {
+    "description": "Electric Standing Desk",
+    "price": 399.99,
+    "releaseDate": "2022-09-18T00:00:00.000Z",
+    "stock": 25
+  },
+  {
+    "description": "Wireless Charger",
+    "price": 29.99,
+    "releaseDate": "2021-03-11T00:00:00.000Z",
+    "stock": 150
+  },
+  {
+    "description": "1080p Projector",
+    "price": 159.99,
+    "releaseDate": "2022-08-01T00:00:00.000Z",
+    "stock": 45
+  },
+  {
+    "description": "Graphics Tablet",
+    "price": 79.99,
+    "releaseDate": "2023-09-09T00:00:00.000Z",
+    "stock": 80
+  }
+]

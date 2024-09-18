@@ -1,0 +1,7 @@
+.container {
+  @apply w-1/2 mx-auto my-10 bg-slate-700 p-4;
+}
+
+.title {
+  @apply text-lg text-white font-bold text-center;
+}
