@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
+import styles from "./styles.module.css";
 import { Product } from "../../models/Product";
 
 type Location = {
@@ -13,30 +14,32 @@ const ProductDetails = () => {
   const { product } = location.state;
 
   return (
-    <div>
-      <div>
-        <span>Descrição:</span>
-        <span>{product.description}</span>
-      </div>
+    <div className={styles.container}>
+      <div className={styles.panel}>
+        <div>
+          <span className={styles.key}>Descrição:</span>
+          <span>{product.description}</span>
+        </div>
 
-      <div>
-        <span>Preço:</span>
-        <span>{product.price}</span>
-      </div>
+        <div>
+          <span className={styles.key}>Preço:</span>
+          <span>{product.price}</span>
+        </div>
 
-      <div>
-        <span>Data de lançamento:</span>
-        <span>{product.releaseDate.toLocaleDateString()}</span>
-      </div>
+        <div>
+          <span className={styles.key}>Data de lançamento:</span>
+          <span>{product.releaseDate.toLocaleDateString()}</span>
+        </div>
 
-      <div>
-        <span>Qtde em estoque:</span>
-        <span>{product.stock}</span>
-      </div>
+        <div>
+          <span className={styles.key}>Qtde em estoque:</span>
+          <span>{product.stock}</span>
+        </div>
 
-      <Link to="/">
-        <span>Voltar</span>
-      </Link>
+        <Link className={styles.backButton} to="/">
+          <span>Voltar</span>
+        </Link>
+      </div>
     </div>
   );
 };

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
+import styles from "./styles.module.css";
 import { Product } from "../../models/Product";
 import productsList from "../../data/products.json";
+import ProductCard from "../../components/ProductCard";
 
 const Home = () => {
   const [products, setProducts] = useState<Product[]>([]);
@@ -25,17 +26,11 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Lista de produtos</h1>
 
       {products.length > 0 &&
-        products.map((p, index) => (
-          <div key={index}>
-            <Link to="/produto" state={{ product: p }}>
-              <p>{p.description}</p>
-            </Link>
-          </div>
-        ))}
+        products.map((p, index) => <ProductCard key={index} product={p} />)}
     </div>
   );
 };
